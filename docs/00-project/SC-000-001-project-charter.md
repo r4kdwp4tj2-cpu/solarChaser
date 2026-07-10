@@ -1,7 +1,7 @@
 ---
 document_id: SC-000-001
 title: Project Charter
-revision: 0.2
+revision: 0.3
 status: approved
 owner: Design Authority
 approver: Spiros Netos
@@ -18,6 +18,8 @@ Create an electric expedition camper platform that remains understandable, maint
 ## Mission
 
 Develop an open, modular, professionally engineered platform that supports independent travel while keeping the captain in command of every critical system, except where safety protection must override operator action.
+
+The current vehicle implementation baseline is the **Renault Master E-Tech electric L2H2, 87 kWh, 3.5 t**, selected in [ADR-003](../40-decisions/ADR-003-renault-master-etech-l2h2-platform.md).
 
 ## Roles
 

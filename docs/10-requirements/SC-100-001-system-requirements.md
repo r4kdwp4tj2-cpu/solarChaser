@@ -1,7 +1,7 @@
 ---
 document_id: SC-100-001
 title: System Requirements Specification
-revision: 0.2
+revision: 0.3
 status: draft
 owner: Systems Engineering
 approver: null
@@ -61,6 +61,7 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 | NFR-037 | The electrical architecture shall support future higher-power loads, including a larger inverter and possible induction cooking, without redesigning the complete house electrical system. | Electrical Power | Architecture review and capacity analysis |
 | NFR-038 | Each subsystem shall minimize standby power consumption. | All powered systems | Measurement |
 | NFR-039 | The platform shall support at least 20 years of normal recreational operation with scheduled maintenance; wear items and electronic components may be replaced without architectural redesign. | All systems; Configuration and Lifecycle | Lifecycle analysis and design review |
+| NFR-040 | The completed vehicle shall have a registered permissible gross mass not exceeding 3500 kg and shall be legally operable by the captain without a C1 licence in every intended travel jurisdiction. | Vehicle Platform; Compliance; Weight Management | Registration-document inspection and jurisdiction review |
 
 ## Traceability work required before B1
 
@@ -70,5 +71,7 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 - Establish verification cases and acceptance criteria.
 - Identify applicable Swiss vehicle, electrical, gas-storage, and registration constraints using authoritative sources.
 - Resolve whether occasional grandchildren sleeping remains a requirement and specify its measurable form.
+- Quantify the minimum acceptable governed/top speed and motorway cruise capability; the rejected 90 km/h limit is currently a platform decision driver, not yet a testable requirement.
+- Confirm how NFR-027's 500 kg remaining payload is calculated for the Renault 3.5 t registration basis, including occupants, water, optional equipment, and statutory mass definitions.
 
-Architectural decisions are recorded separately in [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md) and [ADR-002](../40-decisions/ADR-002-platform-design-life.md).
+Architectural decisions are recorded separately in [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md), [ADR-002](../40-decisions/ADR-002-platform-design-life.md), and [ADR-003](../40-decisions/ADR-003-renault-master-etech-l2h2-platform.md).

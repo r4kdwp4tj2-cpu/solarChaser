@@ -1,7 +1,7 @@
 ---
 document_id: SC-200-001
 title: System Architecture Specification
-revision: 0.2
+revision: 0.3
 status: draft
 owner: Systems Architecture
 approver: null
@@ -14,6 +14,12 @@ baseline: null
 ## Architectural intent
 
 The architecture separates physical resource flow, information collection, health assessment, supervisory decisions, safety protection, and captain interaction. Systems own functions; products are selected later.
+
+## Vehicle platform allocation
+
+SYS-100 is implemented by the **Renault Master E-Tech electric L2H2 panel van, 87 kWh Long Range, 3.5 t permissible gross mass**. Current official Renault Switzerland configuration data lists 5681 mm overall length, 2500 mm height, 3225 mm maximum load-floor length, 1885 mm interior height, 10.8 m³ load volume, and an average payload range of 844–1132 kg depending on configuration. These are supplier configuration inputs, not as-built acceptance values.
+
+The exact ordered vehicle specification, unladen/running-order mass, axle limits, tyre ratings, governed speed, homologation data, and conversion constraints require confirmation from the vehicle Certificate of Conformity, quotation, body-builder documentation, and registration authority before design freeze. See [ADR-003](../40-decisions/ADR-003-renault-master-etech-l2h2-platform.md).
 
 ## Top-level systems
 
@@ -69,4 +75,10 @@ See [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md). Detailed inter
 
 ## Physical integration
 
-The preliminary electrical and diagnostic integration concept is defined in [SC-402-001 Technical Bay Preliminary Design](SC-402-001-technical-bay-preliminary-design.md). Its physical location, envelope, and equipment arrangement remain subject to vehicle measurement, mass properties, thermal analysis, and trade study.
+The preliminary electrical and diagnostic integration concept is defined in [SC-402-001 Technical Bay Preliminary Design](SC-402-001-technical-bay-preliminary-design.md). Its physical location, envelope, and equipment arrangement remain subject to measurement of the selected Renault L2H2, mass properties, thermal analysis, and trade study.
+
+## External platform sources
+
+- Renault Switzerland, [Master E-Tech electric L2H2 configurator](https://de.business.renault.ch/business-range-master/kastenwagen-etech-electric/konfigurator.html), accessed 2026-07-10.
+- Renault Switzerland, [Master panel-van dimensions](https://de.business.renault.ch/business-range-master/kastenwagen.html), accessed 2026-07-10.
+- ASTRA, [Information on the Swiss driving licence](https://www.astra.admin.ch/dam/astra/de/dokumente/abteilung_strassenverkehrallgemein/information-schweizer-fuehrerausweis.pdf.download.pdf/Information%20Schweizer%20F%C3%BChrerausweis.pdf), accessed 2026-07-10.

@@ -1,7 +1,7 @@
 ---
 document_id: SC-402-001
 title: Technical Bay Preliminary Design
-revision: 0.1
+revision: 0.2
 status: draft
 owner: Electrical Power and Physical Architecture
 approver: null
@@ -106,7 +106,7 @@ These requirements are **proposed** for Design Authority review. Their IDs are l
 
 ### 5.2 Candidate location criteria
 
-The final bay location will be selected by trade study after measuring the L3H2 vehicle and preliminary living layout. Criteria are:
+The final bay location will be selected by trade study after measuring the Renault Master E-Tech electric L2H2 vehicle and preliminary living layout. Criteria are:
 
 1. short battery-to-protection-to-inverter current path;
 2. safe structural anchoring and crash-load path;
@@ -216,13 +216,13 @@ Mitigation is to use candidate envelopes and a scored location trade study befor
 
 | Action | Required output | Blocks |
 |---|---|---|
-| A-402-001 | Measured L3H2 interior/body model including doors, ribs, wheel arches, floor build-up, and prohibited drill/cut zones | Location trade study |
+| A-402-001 | Measured Renault Master E-Tech electric L2H2 interior/body model including doors, ribs, wheel arches, floor build-up, underbody and HV exclusion zones, and prohibited drill/cut zones | Location trade study |
 | A-402-002 | Preliminary habitation layout with two bed envelopes, toilet, storage, and access paths | Candidate bay locations |
 | A-402-003 | Initial daily/peak energy and load budget | Converter, inverter, protection, and thermal envelopes |
 | A-402-004 | Preliminary battery capacity and chemistry trade study | Z4 envelope and safety concept |
 | A-402-005 | Applicable Swiss/EU electrical, vehicle, EMC, fire, and registration requirements review | Detailed protection and compliance design |
 | A-402-006 | Candidate equipment envelope library using at least two plausible product families per major function | Access and expansion study |
-| A-402-007 | Vehicle-approved traction/auxiliary interface evidence | IF-402 feasibility |
+| A-402-007 | Renault/body-builder-approved traction or auxiliary interface evidence | IF-402 feasibility |
 | A-402-008 | Technical-bay location trade study | Layout approval |
 
 ## 14. Exit criteria for preliminary layout approval

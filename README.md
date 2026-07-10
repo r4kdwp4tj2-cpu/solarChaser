@@ -12,6 +12,7 @@ This repository is the project's **single source of truth**. Approved requiremen
 | Repository baseline | B0 — Repository foundation |
 | Default branch | `main` |
 | Design authority | Spiros Netos |
+| Vehicle platform | Renault Master E-Tech electric L2H2, 87 kWh, 3.5 t |
 | Architecture status | 48 V house backbone accepted; 12 V service bus derived |
 
 The earlier project discussion recorded PDR approval. The present repository foundation preserves that decision while identifying the detailed requirements and review evidence as work to be completed.
