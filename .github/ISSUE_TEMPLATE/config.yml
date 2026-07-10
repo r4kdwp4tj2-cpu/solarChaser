@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Engineering process
+    url: https://github.com/r4kdwp4tj2-cpu/solarChaser/blob/main/CONTRIBUTING.md
+    about: Read the change, review, and approval process before opening an issue.

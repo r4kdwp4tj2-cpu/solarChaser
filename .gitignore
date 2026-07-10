@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+*.tmp
+*.bak
+~$*
+.env
+.env.*
+!.env.example
+dist/
+build/
+__pycache__/
+node_modules/

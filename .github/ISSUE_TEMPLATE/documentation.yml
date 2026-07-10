@@ -1,0 +1,21 @@
+name: Documentation defect
+description: Report missing, inconsistent, unclear, duplicated, or obsolete project information.
+title: "[DOC] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Document or path
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and consequence
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction

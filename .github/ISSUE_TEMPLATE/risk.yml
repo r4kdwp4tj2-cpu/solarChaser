@@ -1,0 +1,39 @@
+name: Risk
+description: Record a new or materially changed project, technical, operational, safety, or lifecycle risk.
+title: "[RISK] "
+labels: ["risk"]
+body:
+  - type: textarea
+    id: cause-event-effect
+    attributes:
+      label: Cause, uncertain event, and consequence
+      description: Use the form “Because of..., there is a possibility that..., resulting in...”.
+    validations:
+      required: true
+  - type: dropdown
+    id: probability
+    attributes:
+      label: Initial probability
+      options: [Low, Medium, High]
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Initial impact
+      options: [Low, Medium, High, Critical]
+    validations:
+      required: true
+  - type: textarea
+    id: mitigations
+    attributes:
+      label: Proposed mitigations
+      description: Prefer elimination, then reduction, early detection, and recovery.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Mitigation verification and residual risk
+    validations:
+      required: true
