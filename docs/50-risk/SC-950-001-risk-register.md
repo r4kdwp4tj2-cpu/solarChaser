@@ -1,7 +1,7 @@
 ---
 document_id: SC-950-001
 title: Risk Register
-revision: 0.2
+revision: 0.3
 status: draft
 owner: Systems Engineering
 approver: null
@@ -27,6 +27,7 @@ Probability is `Low`, `Medium`, or `High`. Impact is `Low`, `Medium`, `High`, or
 | R-006 | Technical / safety | Because future high-power loads increase thermal and fault energy, the 48 V bay may overheat or require protection beyond preliminary assumptions. | Medium | High | Electrical Power and Safety | Power and thermal budgets; ventilation analysis; temperature monitoring; derating; correctly rated protection and disconnects; staged expansion limits. | Low / Medium | Open |
 | R-007 | Project | Because attractive functions can accumulate, scope growth may increase mass, complexity, cost, and software burden. | High | Medium | Design Authority | Require traceability to a need; apply “every feature pays rent”; use change issues and ADRs; maintain reserves and deferred backlog. | Medium / Low | Open |
 | R-008 | Technical / lifecycle | Because supervisory and diagnostic software can become complex or unsupported, automation may reduce rather than improve serviceability. | Medium | Medium | Software and Diagnostics | Open formats; local operation; manual fallback; bounded automation; documented interfaces; tests; exportable configuration and logs. | Low / Medium | Open |
+| R-009 | Technical / project | Because the living layout and equipment envelopes are not yet measured, premature technical-bay location selection may create inaccessible modules, poor mass distribution, excessive cable routes, or inadequate cooling. | High | High | Physical Architecture | Measure vehicle and habitation envelopes; model removal paths and service clearances; compare candidate locations in TS-002 before drilling, cutting, or fixing furniture interfaces. | Low / Medium | Open |
 
 ## Review rules
 

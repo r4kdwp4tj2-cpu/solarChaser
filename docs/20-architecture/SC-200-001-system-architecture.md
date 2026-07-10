@@ -66,3 +66,7 @@ flowchart LR
 - The vehicle high-voltage system remains vehicle-owned and is accessed only through approved interfaces.
 
 See [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md). Detailed interfaces and failure behavior remain preliminary-design work.
+
+## Physical integration
+
+The preliminary electrical and diagnostic integration concept is defined in [SC-402-001 Technical Bay Preliminary Design](SC-402-001-technical-bay-preliminary-design.md). Its physical location, envelope, and equipment arrangement remain subject to vehicle measurement, mass properties, thermal analysis, and trade study.

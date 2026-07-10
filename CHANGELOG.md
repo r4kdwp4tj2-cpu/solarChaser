@@ -6,6 +6,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- SC-402-001 Technical Bay Preliminary Design, including zoning, serviceability, thermal, routing, diagnostic, safety, and verification concepts.
 - Repository Architecture Specification.
 - Stable repository structure and controlled-document metadata.
 - Configuration-management and contribution guidance.

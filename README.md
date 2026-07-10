@@ -22,6 +22,7 @@ The earlier project discussion recorded PDR approval. The present repository fou
 - [SC-090-001 Repository Architecture Specification](docs/00-project/SC-090-001-repository-architecture-specification.md)
 - [SC-100-001 System Requirements Specification](docs/10-requirements/SC-100-001-system-requirements.md)
 - [SC-200-001 System Architecture Specification](docs/20-architecture/SC-200-001-system-architecture.md)
+- [SC-402-001 Technical Bay Preliminary Design](docs/20-architecture/SC-402-001-technical-bay-preliminary-design.md)
 - [Decision records](docs/40-decisions/README.md)
 - [Risk register](docs/50-risk/SC-950-001-risk-register.md)
 - [Configuration-management plan](docs/90-configuration/SC-900-001-configuration-management-plan.md)
