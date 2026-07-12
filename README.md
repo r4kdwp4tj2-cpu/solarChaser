@@ -31,6 +31,7 @@ The earlier project discussion recorded PDR approval. The present repository fou
 - [EM-003 Preliminary Electrical Load and Energy Budget](docs/60-design-reviews/EM-003-preliminary-electrical-load-budget.md)
 - [EM-004 Battery Capacity and Chemistry Trade Study](docs/60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md)
 - [EM-005 Compliance Applicability and Approval Strategy](docs/60-design-reviews/EM-005-compliance-applicability-and-approval-strategy.md)
+- [SC-700-001 MFK Certification Evidence](docs/70-verification/SC-700-001-mfk-zertifizierungsnachweise.md) — controlled in German for the Swiss approval dossier
 - [Reproducible calculations](calculations/README.md)
 - [Risk register](docs/50-risk/SC-950-001-risk-register.md)
 - [Configuration-management plan](docs/90-configuration/SC-900-001-configuration-management-plan.md)
