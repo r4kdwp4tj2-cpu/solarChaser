@@ -1,0 +1,13 @@
+load_id,name,domain,criticality,summer_daily_wh,winter_daily_wh,worst_continuous_w,peak_w,certainty,basis
+EL-001,Compressor refrigerator,12V,essential,600,450,55,75,estimate,"50 L class compressor refrigerator; duty-cycle energy, not nameplate power"
+EL-002,Habitation lighting,12V,important,150,250,40,40,estimate,"LED task and ambient lighting with non-coincident use"
+EL-003,Fresh-water and outside-shower pump,12V,essential,25,25,60,120,estimate,"Intermittent diaphragm pump; peak allows start transient"
+EL-004,Habitation ventilation,12V,important,180,80,35,35,estimate,"Roof or wall ventilation operated more in summer"
+EL-005,Monitoring diagnostics and HMI,48V,essential,220,220,12,12,estimate,"Local monitoring and diagnostics available continuously"
+EL-006,Communications and local network,12V,important,180,180,18,25,estimate,"Router and local network under an energy-management schedule"
+EL-007,USB and small-device charging,12V,discretionary,350,300,120,150,estimate,"Phones, cameras, laptop DC charging and small electronics"
+EL-008,Water-level leak and flow sensing,12V,essential,35,35,4,4,estimate,"Distributed low-power sensors"
+EL-009,Inverter standby and control,48V,discretionary,60,60,5,5,estimate,"Inverter normally disabled; allowance covers enabled idle periods"
+EL-010,General 230 V user loads,230V,discretionary,450,350,1000,1500,estimate,"Short-duration user appliances; excludes cooking and space heating"
+EL-011,Controls relays and distribution overhead,48V,essential,120,120,8,8,estimate,"Always-on controls, contactor and measurement overhead"
+EL-012,Technical-bay extraction fan provision,12V,important,0,0,24,24,provisional,"Not in daily baseline; included in continuous envelope pending thermal decision"

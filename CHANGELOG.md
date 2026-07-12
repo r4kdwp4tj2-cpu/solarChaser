@@ -6,6 +6,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- EM-003 reproducible preliminary electrical load and energy budget, generated results, and automated verification.
 - EM-002 record covering the technical-bay architecture and repository-governance decisions.
 - ADR-004 accepting the under-bed technical-bay location, dual-access concept, and passive-ventilation baseline.
 - SC-500-001 Mechanical Architecture establishing the dry toilet, under-bed technical bay, and opposite-side washing/water-service allocations.
@@ -23,6 +24,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Added preliminary source-side planning envelopes for daily energy, continuous and peak load, and two-day nominal battery energy without selecting equipment.
 - Clarified FR-003 as a dry Trelino toilet compartment without sink, shower, or plumbing.
 - Allocated the technical bay under a permanent bed adjacent to the dry toilet, with top access for major work and removable side panels for routine service.
 - Established passive low-inlet/high-outlet ventilation as the baseline while retaining a thermally justified fan provision.
