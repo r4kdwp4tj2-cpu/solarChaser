@@ -2,10 +2,10 @@
 document_id: SC-090-001
 title: Repository Architecture Specification
 revision: 1.1
-status: in-review
+status: approved
 owner: Configuration Management
-approver: null
-approval_date: null
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 

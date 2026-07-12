@@ -2,9 +2,11 @@
 record_id: EM-002
 title: Technical Bay Architecture and Repository Governance
 revision: 0.1
-status: in-review
+status: approved
 meeting_authority: Spiros Netos
 meeting_date: 2026-07-12
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 
@@ -72,10 +74,9 @@ This is an administrative correction with no change to approved intent.
 
 ### Design Authority
 
-- Review the EM-002 pull-request diff for correctness, consistency, and traceability.
-- Comment or request changes where the repository does not reflect the approved discussion.
-- Approve and merge only when satisfied; do not approve unverified dimensions or thermal sizing merely by accepting the architecture.
+- Completed 2026-07-12: reviewed the EM-002 pull-request implementation and accepted all changes without correction.
+- Merge the accepted pull request to `main`; acceptance does not approve the dimensions, thermal sizing, or other open engineering work listed above.
 
 ## Review status
 
-**Awaiting Design Authority pull-request review.** The meeting closes when the implementation is approved and merged to `main`. Technical calculations and open actions remain open work after meeting closure.
+**Accepted by the Design Authority on 2026-07-12; awaiting merge to `main`.** Merge closes the meeting's repository-synchronization action. Technical calculations and open engineering actions remain open after meeting closure.
