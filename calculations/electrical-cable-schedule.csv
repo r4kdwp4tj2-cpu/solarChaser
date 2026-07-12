@@ -1,0 +1,12 @@
+circuit_id,source,destination,domain,nominal_voltage_v,design_current_a,one_way_length_m,conductor_mm2,protection_a,max_drop_pct,status
+CBL-001,PV string,PV isolator and MPPT,PV DC,125.2,6.86,5.0,6,15,1.5,provisional
+CBL-002,MPPT,48 V load distributor,48 V DC,56.0,15.0,1.5,10,25,1.0,provisional
+CBL-003A,Battery A,Battery-side distributor,48 V DC,51.2,100.0,0.8,35,125,1.0,provisional
+CBL-003B,Battery B,Battery-side distributor,48 V DC,51.2,100.0,0.8,35,125,1.0,provisional
+CBL-004,BMS,48 V load distributor,48 V DC,51.2,200.0,0.5,70,250,1.0,provisional
+CBL-005,48 V load distributor,MultiPlus-II,48 V DC,48.0,75.0,1.5,35,125,1.0,provisional
+CBL-006,48 V load distributor,48-to-12 V converter sub-distribution,48 V DC,48.0,20.0,1.5,6,25,1.0,provisional
+CBL-007A,Essential 12 V converter,Essential 12 V fuse block,12 V DC,12.0,30.0,1.0,10,40,2.0,provisional
+CBL-007B,Non-essential 12 V converter,Non-essential 12 V fuse block,12 V DC,12.0,30.0,1.0,10,40,2.0,provisional
+CBL-008,CEE shore inlet,AC input protection and MultiPlus-II,230 V AC,230.0,16.0,5.0,2.5,16,2.0,qualified design required
+CBL-009,MultiPlus-II,AC output distribution,230 V AC,230.0,11.0,5.0,2.5,16,2.0,qualified design required

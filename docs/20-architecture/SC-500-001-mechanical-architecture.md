@@ -1,7 +1,7 @@
 ---
 document_id: SC-500-001
 title: Mechanical Architecture
-revision: 0.1
+revision: 0.2
 status: draft
 owner: Physical Architecture
 approver: null
@@ -108,6 +108,23 @@ The target 30-minute replacement principle remains an architectural objective, n
 - Preserve an explicit mass and volume growth reserve.
 - Do not drill, cut, or fasten into the vehicle until Renault/body-builder exclusion zones and approved methods are established.
 
+### 7.1 Roof-solar integration
+
+SC-410 carries four compact rigid 200 W modules as a two-by-two packaging rectangle of 2549 × 1553 mm before perimeter clearance. The fixed solar equipment is estimated at 61.24 kg and is contained within a 75 kg roof planning allocation.
+
+The Design Authority supplied a 200 kg roof-load input. The applicable design limit is the lower of this value and the vehicle-specific allowance confirmed by Renault and the approval authority. The unused numerical margin is not permission to add equipment: roof geometry, local rib capacity, mounting distribution, dynamic and crash loads, aerodynamic uplift, fatigue, corrosion, watertight penetrations, shading, cleaning access and whole-vehicle payload remain independent constraints.
+
+The mechanical roof design shall:
+
+- measure the complete usable surface, ribs, seams, curvature and body-builder exclusions;
+- preserve safe perimeter, hatch, cable-entry, antenna and service clearances;
+- distribute loads through approved structural paths rather than unsupported roof skin;
+- qualify rails, brackets, adhesive and fasteners for temperature, vibration, fatigue and uplift;
+- support and protect all PV cable without water traps, abrasion or loose aerodynamic loops;
+- use a controlled, inspectable and leak-tested cable entry;
+- allow individual module replacement without destructive roof work where practical;
+- record module, mounting, cable-entry and reserved roof mass separately.
+
 ## 8. Interfaces
 
 | Interface | Mechanical content | Owner |
@@ -117,6 +134,7 @@ The target 30-minute replacement principle remains an architectural objective, n
 | Side panel to bay | Routine access, reusable fasteners, guarding, grille integration | Habitation / Maintenance |
 | Dry toilet to bay | Partition, odor/hygiene separation, no plumbing penetration | Habitation |
 | Remote water area to bay | Protected cable/signal route; no liquid path | Water and Sanitary / Electrical Power |
+| Roof PV to vehicle/body | Local structure, distributed attachment, uplift, fatigue, ingress, corrosion, cable entry and 75 kg planning allocation | Physical Architecture / Electrical Power / Compliance |
 
 ## 9. Verification concept
 
@@ -128,6 +146,7 @@ The target 30-minute replacement principle remains an architectural objective, n
 - Ventilation-obstruction inspection with normal bedding and storage installed.
 - Mass, centre-of-mass, axle-load, and payload analysis followed by staged weighing.
 - Traceability inspection linking labels and physical identifiers to documents.
+- Roof measurement, attachment/uplift analysis, water-ingress test and staged roof/axle weighing.
 
 ## 10. Open actions
 
@@ -137,12 +156,15 @@ The target 30-minute replacement principle remains an architectural objective, n
 - Perform the SC-402 loss budget and passive-ventilation calculation.
 - Develop structural restraint and bed-platform concepts.
 - Decide panel material, reusable-fastener type, grille geometry, and acoustic treatment after calculations and mock-up testing.
+- Obtain vehicle-specific evidence for the 200 kg roof input and complete the roof-solar mounting and aerodynamic analysis.
+- Demonstrate that the 2549 × 1553 mm candidate array coexists with the final roof hatch, ventilation, cable-entry and service-clearance layout.
 
 ## 11. Traceability
 
-- Requirements: [FR-001, FR-003, FR-004, NFR-027 through NFR-029, NFR-035, NFR-039](../10-requirements/SC-100-001-system-requirements.md)
+- Requirements: [FR-001, FR-003, FR-004, NFR-027 through NFR-029, NFR-035, NFR-039, and proposed NFR-042](../10-requirements/SC-100-001-system-requirements.md)
 - System architecture: [SC-200-001](SC-200-001-system-architecture.md)
 - Technical bay: [SC-402-001](SC-402-001-technical-bay-preliminary-design.md)
+- Electrical and solar design: [SC-410-001](SC-410-001-electrical-and-solar-preliminary-design.md)
 - Decision: [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md)
-- Risks: [R-001, R-002, R-006, and R-009](../50-risk/SC-950-001-risk-register.md)
+- Risks: [R-001, R-002, R-006, R-009, R-014, and R-015](../50-risk/SC-950-001-risk-register.md)
 - Meeting: [EM-002](../60-design-reviews/EM-002-technical-bay-and-repository-governance.md)

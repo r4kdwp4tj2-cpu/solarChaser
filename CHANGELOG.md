@@ -6,6 +6,9 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- EM-006 and SC-410-001 electrical and solar preliminary design covering an 800 Wp 4S roof array, 48 V storage/distribution, dual 12 V buses, 3 kVA inverter/charger, shore control, monitoring and approval gates.
+- Reproducible solar voltage/yield, electrical-core mass and cable voltage-drop calculations with an 18-line component BOM, 11-circuit cable schedule and automated verification.
+- Proposed NFR-042 controlling the Design Authority's 200 kg roof-load input through vehicle-specific structural, dynamic, aerodynamic and approval evidence.
 - SC-700-001 German-language MFK certification-evidence chapter and project-lifecycle evidence register for the cargo-van-to-motor-caravan conversion.
 - EM-005 compliance applicability and approval strategy with a controlled Swiss/EU evidence register and eight approval gates.
 - SC-095-001 Compliance Applicability Register distinguishing governing, conditional, supporting, and insufficient evidence.
@@ -28,6 +31,8 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Raised the payload-growth risk because the preliminary complete electrical core is approximately 216.82 kg, including 68 kg of estimated ancillary installation mass.
+- Added roof-solar attachment/ingress and approximately 164 V daylight-PV safety risks, and allocated TBR-023 through TBR-032 to the technical-bay design.
 - Recorded Design Authority approval of SC-700-001 MFK Certification Evidence.
 - Added proposed technical-bay compliance requirements for authority strategy, habitation electrical verification, configuration-matched product evidence, EMC assessment, and the as-built dossier.
 - Established LFP as the approved house-battery chemistry baseline and accepted a 10.24 kWh / 74 kg representative packaging envelope without selecting a product.
