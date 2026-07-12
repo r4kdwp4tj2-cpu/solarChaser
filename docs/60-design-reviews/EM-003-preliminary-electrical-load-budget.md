@@ -36,7 +36,7 @@ Automated verification checks the controlled input and sizing arithmetic.
 | Result | Planning value | Disposition |
 |---|---:|---|
 | Summer daily source energy | 2.61 kWh/day | Higher seasonal design day in this first model |
-| Winter daily source energy | 2.27 kWh/day | Excludes electrical space and water heating |
+| Winter daily source energy | 2.39 kWh/day | Includes the same optional 230 V allowance as summer; excludes electrical space and water heating |
 | Worst-continuous arithmetic sum | 1.56 kW | Conservative envelope; diversity not yet applied |
 | Arithmetic peak upper bound | 2.26 kW | Requires transient and coincidence study |
 | Two-day nominal battery-planning energy | 7.17 kWh | Trade-study input, not selected capacity |

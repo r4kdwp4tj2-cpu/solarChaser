@@ -15,7 +15,7 @@
 | Result | Value |
 |---|---:|
 | Summer daily energy | 2608 Wh/day |
-| Winter daily energy | 2273 Wh/day |
+| Winter daily energy | 2386 Wh/day |
 | Sum of worst-continuous branch loads | 1557 W |
 | Arithmetic peak upper bound | 2256 W |
 | Two-day battery planning energy | 7173 Wh nominal |
@@ -35,7 +35,7 @@ The continuous and peak totals are deliberately conservative arithmetic sums, no
 | EL-007 | USB and small-device charging | 12V | 350 | 300 | 120 | 150 | estimate |
 | EL-008 | Water-level leak and flow sensing | 12V | 35 | 35 | 4 | 4 | estimate |
 | EL-009 | Inverter standby and control | 48V | 60 | 60 | 5 | 5 | estimate |
-| EL-010 | General 230 V user loads | 230V | 450 | 350 | 1000 | 1500 | estimate |
+| EL-010 | General 230 V user loads | 230V | 450 | 450 | 1000 | 1500 | estimate |
 | EL-011 | Controls relays and distribution overhead | 48V | 120 | 120 | 8 | 8 | estimate |
 | EL-012 | Technical-bay extraction fan provision | 12V | 0 | 0 | 24 | 24 | provisional |
 
