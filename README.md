@@ -21,6 +21,7 @@ The earlier project discussion recorded PDR approval. The present repository fou
 
 - [SC-000-001 Project Charter](docs/00-project/SC-000-001-project-charter.md)
 - [SC-090-001 Repository Architecture Specification](docs/00-project/SC-090-001-repository-architecture-specification.md)
+- [SC-095-001 Compliance Applicability Register](docs/00-project/SC-095-001-compliance-applicability-register.md)
 - [SC-100-001 System Requirements Specification](docs/10-requirements/SC-100-001-system-requirements.md)
 - [SC-200-001 System Architecture Specification](docs/20-architecture/SC-200-001-system-architecture.md)
 - [SC-402-001 Technical Bay Preliminary Design](docs/20-architecture/SC-402-001-technical-bay-preliminary-design.md)
@@ -29,6 +30,7 @@ The earlier project discussion recorded PDR approval. The present repository fou
 - [EM-002 Technical Bay Architecture and Repository Governance](docs/60-design-reviews/EM-002-technical-bay-and-repository-governance.md)
 - [EM-003 Preliminary Electrical Load and Energy Budget](docs/60-design-reviews/EM-003-preliminary-electrical-load-budget.md)
 - [EM-004 Battery Capacity and Chemistry Trade Study](docs/60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md)
+- [EM-005 Compliance Applicability and Approval Strategy](docs/60-design-reviews/EM-005-compliance-applicability-and-approval-strategy.md)
 - [Reproducible calculations](calculations/README.md)
 - [Risk register](docs/50-risk/SC-950-001-risk-register.md)
 - [Configuration-management plan](docs/90-configuration/SC-900-001-configuration-management-plan.md)

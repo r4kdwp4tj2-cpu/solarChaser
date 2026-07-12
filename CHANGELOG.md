@@ -6,6 +6,8 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- EM-005 compliance applicability and approval strategy with a controlled Swiss/EU evidence register and eight approval gates.
+- SC-095-001 Compliance Applicability Register distinguishing governing, conditional, supporting, and insufficient evidence.
 - EM-004 reproducible battery chemistry and capacity trade study, generated results, and automated verification.
 - EM-003 reproducible preliminary electrical load and energy budget, generated results, and automated verification.
 - EM-002 record covering the technical-bay architecture and repository-governance decisions.
@@ -25,6 +27,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Added proposed technical-bay compliance requirements for authority strategy, habitation electrical verification, configuration-matched product evidence, EMC assessment, and the as-built dossier.
 - Established LFP as the approved house-battery chemistry baseline and accepted a 10.24 kWh / 74 kg representative packaging envelope without selecting a product.
 - Added preliminary source-side planning envelopes for daily energy, continuous and peak load, and two-day nominal battery energy without selecting equipment.
 - Clarified FR-003 as a dry Trelino toilet compartment without sink, shower, or plumbing.
