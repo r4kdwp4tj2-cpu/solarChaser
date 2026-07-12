@@ -1,0 +1,4 @@
+option,thermal_safety,lifecycle,mass_volume,cold_operation,integration,power_performance,availability_cost,disposition
+LFP,5,4,4,2,5,4,4,Preferred baseline
+LTO,5,5,2,5,2,5,1,Retain for extreme-cold alternative
+NMC,2,3,5,2,3,4,3,Reject for habitation baseline

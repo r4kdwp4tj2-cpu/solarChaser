@@ -6,6 +6,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- EM-004 reproducible battery chemistry and capacity trade study, generated results, and automated verification.
 - EM-003 reproducible preliminary electrical load and energy budget, generated results, and automated verification.
 - EM-002 record covering the technical-bay architecture and repository-governance decisions.
 - ADR-004 accepting the under-bed technical-bay location, dual-access concept, and passive-ventilation baseline.
@@ -24,6 +25,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Added LFP as the proposed house-battery baseline and a 10.24 kWh / 74 kg representative packaging envelope pending Design Authority review.
 - Added preliminary source-side planning envelopes for daily energy, continuous and peak load, and two-day nominal battery energy without selecting equipment.
 - Clarified FR-003 as a dry Trelino toilet compartment without sink, shower, or plumbing.
 - Allocated the technical bay under a permanent bed adjacent to the dry toilet, with top access for major work and removable side panels for routine service.
