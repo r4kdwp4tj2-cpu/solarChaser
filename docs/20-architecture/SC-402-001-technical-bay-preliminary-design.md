@@ -15,7 +15,7 @@ baseline: null
 
 Define a buildable preliminary architecture for the technical bay integrating house electrical power, monitoring, diagnostics, communications, and service interfaces while preserving safety, payload, thermal performance, and maintainability.
 
-The Design Authority accepted the location, access philosophy, and passive-ventilation baseline in [EM-002](../60-design-reviews/EM-002-technical-bay-and-repository-governance.md) and [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md). [EM-003](../60-design-reviews/EM-003-preliminary-electrical-load-budget.md) provides the approved preliminary load envelope. [EM-004](../60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md) proposes LFP as the chemistry baseline and provides a representative packaging envelope pending review. This document does not yet select dimensions, a battery product, inverter rating, grille free area, fan rating, or other products.
+The Design Authority accepted the location, access philosophy, and passive-ventilation baseline in [EM-002](../60-design-reviews/EM-002-technical-bay-and-repository-governance.md) and [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md). [EM-003](../60-design-reviews/EM-003-preliminary-electrical-load-budget.md) provides the approved preliminary load envelope. [EM-004](../60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md) establishes LFP as the chemistry baseline and accepts a representative packaging envelope. This document does not yet select dimensions, a battery product, inverter rating, grille free area, fan rating, or other products.
 
 ## 2. Design context
 
@@ -247,7 +247,7 @@ This design treats [R-001, R-002, R-004, R-005, R-006, R-008, and R-009](../50-r
 
 EM-003 gives approved source-side estimates of 2.61 kWh/day for the higher seasonal design day, 1.56 kW as the arithmetic worst-continuous sum, 2.26 kW as the arithmetic peak upper bound, and 7.17 kWh nominal for a two-day battery-planning case. These values support envelope-level work only and remain subject to the validation stated in A-402-003.
 
-EM-004 proposes LFP as the chemistry baseline and carries 10.24 kWh / 74 kg battery-only as a representative two-module packaging envelope. This is not a product or capacity selection. The layout shall reserve independent low-temperature charge inhibition, temperature monitoring, manual isolation, hardware protection, controlled restraint, service removal, and a justified thermal/venting path.
+EM-004 establishes LFP as the chemistry baseline and carries 10.24 kWh / 74 kg battery-only as the accepted representative two-module packaging envelope. This is not a product or procurement selection. The layout shall reserve independent low-temperature charge inhibition, temperature monitoring, manual isolation, hardware protection, controlled restraint, service removal, and a justified thermal/venting path.
 
 ## 15. Exit criteria for preliminary layout approval
 
