@@ -1,7 +1,7 @@
 ---
 document_id: SC-100-001
 title: System Requirements Specification
-revision: 0.4
+revision: 0.5
 status: draft
 owner: Systems Engineering
 approver: null
@@ -64,6 +64,12 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 | NFR-040 | The completed vehicle shall have a registered permissible gross mass not exceeding 3500 kg and shall be legally operable by the captain without a C1 licence in every intended travel jurisdiction. | Vehicle Platform; Compliance; Weight Management | Registration-document inspection and jurisdiction review |
 | NFR-041 | The GitHub engineering repository shall remain synchronized with all approved requirements, architectural decisions, and engineering-meeting outcomes; no approved engineering decision shall exist solely in conversation history. | Configuration Management; Documentation | Meeting-to-repository traceability inspection |
 
+## Proposed non-functional requirements for B1
+
+| ID | Proposed requirement | Primary allocation | Verification concept |
+|---|---|---|---|
+| NFR-042 | Permanently installed roof equipment shall not exceed the lower of 200 kg and the vehicle-specific allowance confirmed by Renault and the approval authority; its load distribution, attachment, dynamic loading, aerodynamic uplift, fatigue, corrosion resistance and watertightness shall be verified before installation release. | Vehicle Platform; Physical Architecture; Electrical Power; Compliance | Manufacturer/authority evidence, structural analysis, inspection and staged weighing |
+
 ## Traceability work required before B1
 
 - Reconcile all earlier candidate FR and NFR entries, including numbering gaps.
@@ -74,7 +80,10 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 - Resolve whether occasional grandchildren sleeping remains a requirement and specify its measurable form.
 - Quantify the minimum acceptable governed/top speed and motorway cruise capability; the rejected 90 km/h limit is currently a platform decision driver, not yet a testable requirement.
 - Confirm how NFR-027's 500 kg remaining payload is calculated for the Renault 3.5 t registration basis, including occupants, water, optional equipment, and statutory mass definitions.
+- Confirm and accept or revise the 200 kg roof-load input and NFR-042 using vehicle-specific Renault and MFK/APS evidence.
 
 Architectural decisions are recorded separately in [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md), [ADR-002](../40-decisions/ADR-002-platform-design-life.md), and [ADR-003](../40-decisions/ADR-003-renault-master-etech-l2h2-platform.md).
 
 The technical-bay physical concept is recorded in [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md) and allocated through [SC-402-001](../20-architecture/SC-402-001-technical-bay-preliminary-design.md) and [SC-500-001](../20-architecture/SC-500-001-mechanical-architecture.md).
+
+The proposed electrical and roof-solar design is controlled in [SC-410-001](../20-architecture/SC-410-001-electrical-and-solar-preliminary-design.md) and [EM-006](../60-design-reviews/EM-006-electrical-and-solar-preliminary-design.md).

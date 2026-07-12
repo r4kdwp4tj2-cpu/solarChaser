@@ -1,7 +1,7 @@
 ---
 document_id: SC-200-001
 title: System Architecture Specification
-revision: 0.4
+revision: 0.5
 status: draft
 owner: Systems Architecture
 approver: null
@@ -73,6 +73,19 @@ flowchart LR
 
 See [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md). Detailed interfaces and failure behavior remain preliminary-design work.
 
+## Preliminary electrical and solar allocation
+
+[SC-410-001](SC-410-001-electrical-and-solar-preliminary-design.md) develops the following packaging baseline for review:
+
+- a four-module 4S1P roof string providing 800 Wp to a 250 V-class MPPT;
+- two parallel 51.2 V, 100 Ah LFP battery modules with a dedicated BMS, contactor, pre-charge and protected aggregation;
+- a 48 V / 3 kVA inverter/charger for captain-authorized shore charging and the 230 V domain;
+- separate isolated 48-to-12 V converters and fuse blocks for essential and non-essential service buses;
+- local wired monitoring of source, storage, distribution, conversion, AC state and technical-bay temperature;
+- no installed vehicle-source charger until a Renault-approved interface and authority route exist.
+
+This is a complete functional architecture but only a candidate product and packaging configuration. Protection, conductor, grounding, roof, thermal, mass, EMC and compliance gates remain open.
+
 ## Physical integration
 
 The dry toilet compartment contains a Trelino composting toilet and sanitary storage only. It has no sink, shower, fresh-water plumbing, or grey-water plumbing. Washing and water-service functions are allocated to the opposite side of the van near the sliding door.
@@ -80,6 +93,8 @@ The dry toilet compartment contains a Trelino composting toilet and sanitary sto
 The technical bay is allocated under a permanent bed adjacent to the dry toilet compartment. Major access is from above through the liftable mattress/bed platform; routine inspection and service use removable side panels. Passive ventilation through a defined low inlet and high outlet is the baseline, with reserved provision for a temperature-controlled extraction fan if thermal analysis justifies it. See [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md), [SC-402-001](SC-402-001-technical-bay-preliminary-design.md), and [SC-500-001](SC-500-001-mechanical-architecture.md).
 
 The exact envelope, internal equipment arrangement, grille free area, structural restraint, mass properties, and fan need remain subject to measurement, load and loss budgets, thermal analysis, and verification on the selected Renault L2H2.
+
+The roof-solar package carries a fixed preliminary mass of 61.24 kg within a 75 kg roof planning allocation. The Design Authority supplied a 200 kg roof-load input; vehicle-specific documentation, local structural capacity, dynamic attachment, aerodynamic uplift, ingress and remaining payload remain unverified.
 
 ## External platform sources
 

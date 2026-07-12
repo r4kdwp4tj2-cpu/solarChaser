@@ -1,7 +1,7 @@
 ---
 document_id: SC-402-001
 title: Technical Bay Preliminary Design
-revision: 0.6
+revision: 0.7
 status: draft
 owner: Electrical Power and Physical Architecture
 approver: null
@@ -15,7 +15,7 @@ baseline: null
 
 Define a buildable preliminary architecture for the technical bay integrating house electrical power, monitoring, diagnostics, communications, and service interfaces while preserving safety, payload, thermal performance, and maintainability.
 
-The Design Authority accepted the location, access philosophy, and passive-ventilation baseline in [EM-002](../60-design-reviews/EM-002-technical-bay-and-repository-governance.md) and [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md). [EM-003](../60-design-reviews/EM-003-preliminary-electrical-load-budget.md) provides the approved preliminary load envelope. [EM-004](../60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md) establishes LFP as the chemistry baseline and accepts a representative packaging envelope. This document does not yet select dimensions, a battery product, inverter rating, grille free area, fan rating, or other products.
+The Design Authority accepted the location, access philosophy, and passive-ventilation baseline in [EM-002](../60-design-reviews/EM-002-technical-bay-and-repository-governance.md) and [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md). [EM-003](../60-design-reviews/EM-003-preliminary-electrical-load-budget.md) provides the approved preliminary load envelope. [EM-004](../60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md) establishes LFP as the chemistry baseline and accepts a representative packaging envelope. [SC-410-001](SC-410-001-electrical-and-solar-preliminary-design.md) and [EM-006](../60-design-reviews/EM-006-electrical-and-solar-preliminary-design.md) now provide candidate equipment envelopes, an 800 Wp solar architecture, cable schedule and complete electrical-core mass model. They do not authorize product procurement or installation.
 
 ## 2. Design context
 
@@ -134,6 +134,16 @@ TBR-018 through TBR-022 were accepted through EM-005. TBR-001 through TBR-017 re
 | TBR-020 | Every safety- or approval-relevant electrical product shall have configuration-matched evidence covering exact part number, firmware/BMS, accessories, environmental limits, mounting, and certificate scope. | Evidence-matrix audit |
 | TBR-021 | EMC compliance shall be assessed for the completed conversion and shall include component evidence, installation controls, change-impact analysis, and testing where required by the approval authority. | EMC dossier review |
 | TBR-022 | The as-built approval dossier shall include drawings, configuration, protection settings, labels, torque/inspection records, electrical tests, mass/axle evidence, photographs, deviations, and required sign-offs. | Dossier audit |
+| TBR-023 | The roof PV system shall provide a nominal 800 Wp packaging baseline using a string voltage that remains below the MPPT absolute maximum at the declared cold temperature and above the required charging threshold at the declared hot temperature. | Calculation and environmental review |
+| TBR-024 | Permanently installed roof equipment shall remain within the lower of the confirmed vehicle-specific allowance and 200 kg, with verified load distribution, attachment, dynamic loading, aerodynamic uplift, fatigue, corrosion and watertightness. | Manufacturer/APS evidence, analysis and inspection |
+| TBR-025 | The PV source shall be all-pole isolatable and treated as energized whenever illuminated; labels, touch-safe routing, covering and test procedures shall address its maximum cold open-circuit voltage. | Inspection and electrical safety test |
+| TBR-026 | Each parallel battery module shall have equal-length conductors, independent protection and configuration-matched BMS integration. | Drawing review, measurement and functional test |
+| TBR-027 | The battery/BMS/distribution system shall enforce the lowest current and temperature limit of the batteries, conductors, protection, terminals, equipment and approved installation configuration. | Settings audit and fault test |
+| TBR-028 | Essential and non-essential 12 V loads shall be supplied from separate protected converter/bus paths so that a non-essential fault does not remove minimum habitation functions. | Fault-insertion test |
+| TBR-029 | Shore charging shall require an explicit captain command while all required AC protection remains independent of that command. | Functional and electrical safety test |
+| TBR-030 | Loss of supervisory communications shall not defeat BMS, overcurrent, residual-current, isolation or thermal protection. | Fault-insertion test |
+| TBR-031 | The electrical-core mass budget shall include every installed item above 0.5 kg and retain separate manufacturer-supported and estimated totals until final weighing. | Mass-register audit and staged weighing |
+| TBR-032 | No vehicle-source charger shall be installed or energized before written Renault interface evidence and authority acceptance are recorded. | Configuration and evidence audit |
 
 ## 7. Ventilation and thermal concept
 
@@ -205,7 +215,7 @@ Diagnostics correlate commands with measured response and report the evidence av
 
 | Interface | From | To | Content | Status |
 |---|---|---|---|---|
-| IF-401 | Roof solar zone | Z1/Z2 | DC power, isolation, protection, sensing | Preliminary |
+| IF-401 | Roof solar zone | Z1/Z2 | 4S PV DC power, all-pole isolation, protection, sensing | 800 Wp packaging baseline; roof approval open |
 | IF-402 | Approved vehicle source | Z1/Z2 | Charging power, enable/status, isolation boundary | Feasibility open |
 | IF-403 | Shore inlet | Z1/Z2 AC section | 230 V AC, PE, presence/authorization state | Preliminary |
 | IF-404 | Z4 battery enclosure | Z1 protection | 48 V power, BMS state, temperature, isolation | Preliminary |
@@ -234,7 +244,7 @@ Verification combines:
 
 ## 13. Risks and mitigations
 
-This design treats [R-001, R-002, R-004, R-005, R-006, R-008, and R-009](../50-risk/SC-950-001-risk-register.md). Location selection is accepted, but dimensional, structural, mass, acoustic, and thermal feasibility remain unverified. No mounting hole, furniture interface, or component purchase may rely on assumed clearances.
+This design treats [R-001, R-002, R-004, R-005, R-006, R-008, R-009, R-014, and R-015](../50-risk/SC-950-001-risk-register.md). Location selection is accepted, but dimensional, structural, mass, acoustic, electrical-protection and thermal feasibility remain unverified. No mounting hole, furniture interface, or component purchase may rely on assumed clearances.
 
 ## 14. Required inputs and open decisions
 
@@ -245,7 +255,7 @@ This design treats [R-001, R-002, R-004, R-005, R-006, R-008, and R-009](../50-r
 | A-402-003 | Preliminary reproducible budget implemented in EM-003; validate mission profiles, selected products, diversity, transients, and derating before detailed sizing | Converter, inverter, protection, and thermal envelopes |
 | A-402-004 | Reproducible chemistry and capacity trade implemented in EM-004; validate product eligibility, compliance, installed mass, packaging, thermal behavior, BMS, and protection before selection | Z4 envelope and safety concept |
 | A-402-005 | Preliminary applicability and approval strategy implemented in EM-005 and SC-095-001; close with exact vehicle data, current Swiss clauses, qualified electrical review, and written authority/test-centre responses | Detailed protection and compliance design |
-| A-402-006 | Equipment envelope library using at least two plausible product families per major function | Access and expansion study |
+| A-402-006 | First complete candidate envelope implemented in SC-410 and EM-006; add at least one credible alternative family per major function before procurement | Access, alternate-source and expansion study |
 | A-402-007 | Renault/body-builder-approved traction or auxiliary interface evidence | IF-402 feasibility |
 | A-402-008 | Passive ventilation calculation and instrumented test plan | Grille sizing and fan decision |
 | A-402-009 | Structural and crash-restraint concept for battery, equipment, and bed platform | Mounting approval |
@@ -253,6 +263,8 @@ This design treats [R-001, R-002, R-004, R-005, R-006, R-008, and R-009](../50-r
 EM-003 gives approved source-side estimates of 2.61 kWh/day for the higher seasonal design day, 1.56 kW as the arithmetic worst-continuous sum, 2.26 kW as the arithmetic peak upper bound, and 7.17 kWh nominal for a two-day battery-planning case. These values support envelope-level work only and remain subject to the validation stated in A-402-003.
 
 EM-004 establishes LFP as the chemistry baseline and carries 10.24 kWh / 74 kg battery-only as the accepted representative two-module packaging envelope. This is not a product or procurement selection. The layout shall reserve independent low-temperature charge inhibition, temperature monitoring, manual isolation, hardware protection, controlled restraint, service removal, and a justified thermal/venting path.
+
+SC-410 and EM-006 carry a 216.82 kg electrical-core candidate including 68.00 kg of estimated ancillary installation mass. This materially constrains NFR-027 and makes exact vehicle payload, whole-conversion mass and axle budgeting prerequisites to procurement. The candidate equipment library includes two 51.2 V batteries, BMS, two distributors, 3 kVA inverter/charger, 250 V MPPT, dual 12 V converters, monitoring, AC protection, DC protection, wiring, mounting and thermal provisions.
 
 ## 15. Exit criteria for preliminary layout approval
 
