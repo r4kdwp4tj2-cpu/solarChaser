@@ -6,6 +6,11 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- EM-002 record covering the technical-bay architecture and repository-governance decisions.
+- ADR-004 accepting the under-bed technical-bay location, dual-access concept, and passive-ventilation baseline.
+- SC-500-001 Mechanical Architecture establishing the dry toilet, under-bed technical bay, and opposite-side washing/water-service allocations.
+- NFR-041 requiring synchronization of approved engineering decisions into the GitHub single source of truth.
+- Engineering-meeting record and handover rules in the repository architecture and contribution guidance.
 - ADR-003 selecting the Renault Master E-Tech electric L2H2, 87 kWh, 3.5 t as the vehicle platform.
 - NFR-040 constraining registered permissible gross mass to 3500 kg and requiring licence compatibility for intended travel jurisdictions.
 - SC-402-001 Technical Bay Preliminary Design, including zoning, serviceability, thermal, routing, diagnostic, safety, and verification concepts.
@@ -18,6 +23,10 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Clarified FR-003 as a dry Trelino toilet compartment without sink, shower, or plumbing.
+- Allocated the technical bay under a permanent bed adjacent to the dry toilet, with top access for major work and removable side panels for routine service.
+- Established passive low-inlet/high-outlet ventilation as the baseline while retaining a thermally justified fan provision.
+- Corrected the EM-002 draft identifiers: the technical-bay decision is ADR-004 and repository synchronization is NFR-041 because ADR-003 and NFR-040 were already allocated.
 - Replaced the rejected Fiat E-Ducato 4.2 t platform assumption with the Renault Master E-Tech electric L2H2 3.5 t baseline.
 - Updated technical-bay measurement inputs and vehicle-interface risk for the Renault platform.
 - Replaced the revision-named wrapper directory with stable authoritative paths.

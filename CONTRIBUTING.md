@@ -23,6 +23,10 @@ Spiros Netos is the Design Authority and approves requirements, baselines, archi
 7. Obtain Design Authority approval for controlled changes.
 8. Merge without rewriting approved history.
 
+## Engineering-meeting handover
+
+When a design discussion changes controlled engineering information, create or update an `EM-NNN` record containing the accepted decisions, identifier reconciliation, Repository Update Package, risks, Open Action List, and review state. The repository implementation should be one synchronized pull request. Keep detailed debate in the engineering discussion; use pull-request comments for implementation defects, missing evidence, inconsistency, and traceability gaps.
+
 ## Document rules
 
 - Use lowercase kebab-case file names.

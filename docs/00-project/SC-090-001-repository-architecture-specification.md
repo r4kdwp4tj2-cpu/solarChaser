@@ -1,12 +1,12 @@
 ---
 document_id: SC-090-001
 title: Repository Architecture Specification
-revision: 1.0
-status: approved
+revision: 1.1
+status: in-review
 owner: Configuration Management
-approver: Spiros Netos
-approval_date: 2026-07-10
-baseline: B0
+approver: null
+approval_date: null
+baseline: null
 ---
 
 # SC-090-001 Repository Architecture Specification
@@ -74,8 +74,11 @@ Examples: `SC-100-001-system-requirements.md`, `SC-400-001-electrical-power-arch
 | Interface | `IF-NNN` | `IF-101` |
 | Verification case | `VER-NNN` | `VER-007` |
 | Design review | `DR-NNN` | `DR-003` |
+| Engineering meeting | `EM-NNN-short-title.md` | `EM-002-technical-bay.md` |
 
 Identifiers are never reused. Capitalization is preserved in prose; file names remain lowercase.
+
+Engineering-meeting records summarize approved decisions, repository-update scope, risks, actions, and implementation-review status. They do not reproduce full conversations. A meeting that changes controlled information remains open until its repository change is reviewed and merged.
 
 ## 5. Document metadata
 
@@ -132,6 +135,15 @@ Accepted ADRs are not edited to disguise changed reasoning. Minor factual correc
 ## 9. Issue and pull-request workflow
 
 Issue forms capture engineering changes, risks, and documentation defects. Pull requests describe requirement, architecture, interface, decision, risk, verification, and configuration impacts. Direct changes to `main` are reserved for the owner while the repository is small; branch protection should later require pull requests for significant changes.
+
+For engineering-meeting changes:
+
+1. record accepted engineering decisions in an `EM-NNN` meeting record;
+2. reconcile all controlled identifiers against the repository before authoring;
+3. identify the Repository Update Package and Open Action List in the meeting record;
+4. update all affected authoritative documents on one short-lived branch;
+5. submit the synchronized change in one pull request for Design Authority implementation review;
+6. close the meeting only after the reviewed change is merged to `main`.
 
 ## 10. Diagram standards
 
