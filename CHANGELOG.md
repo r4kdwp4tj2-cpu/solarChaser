@@ -6,6 +6,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- SC-700-001 German-language MFK certification-evidence chapter and project-lifecycle evidence register for the cargo-van-to-motor-caravan conversion.
 - EM-005 compliance applicability and approval strategy with a controlled Swiss/EU evidence register and eight approval gates.
 - SC-095-001 Compliance Applicability Register distinguishing governing, conditional, supporting, and insufficient evidence.
 - EM-004 reproducible battery chemistry and capacity trade study, generated results, and automated verification.
