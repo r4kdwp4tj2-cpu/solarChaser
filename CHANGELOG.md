@@ -28,6 +28,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Recorded Design Authority approval of SC-700-001 MFK Certification Evidence.
 - Added proposed technical-bay compliance requirements for authority strategy, habitation electrical verification, configuration-matched product evidence, EMC assessment, and the as-built dossier.
 - Established LFP as the approved house-battery chemistry baseline and accepted a 10.24 kWh / 74 kg representative packaging envelope without selecting a product.
 - Added preliminary source-side planning envelopes for daily energy, continuous and peak load, and two-day nominal battery energy without selecting equipment.
