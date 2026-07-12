@@ -2,10 +2,10 @@
 document_id: SC-000-001
 title: Project Charter
 revision: 0.4
-status: in-review
+status: approved
 owner: Design Authority
-approver: null
-approval_date: null
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 
