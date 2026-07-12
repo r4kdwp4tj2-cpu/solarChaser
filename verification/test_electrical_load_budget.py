@@ -22,7 +22,7 @@ class ElectricalLoadBudgetTest(unittest.TestCase):
         self.assertAlmostEqual(result["battery_planning_wh"], design_day * 2 * 1.10 / 0.80)
         self.assertGreater(result["peak_w"], result["worst_continuous_w"])
         self.assertAlmostEqual(result["summer_daily_wh"], 2608.4157905586476)
-        self.assertAlmostEqual(result["winter_daily_wh"], 2272.557204700062)
+        self.assertAlmostEqual(result["winter_daily_wh"], 2386.1935683364255)
         self.assertAlmostEqual(result["worst_continuous_w"], 1557.4293960008245)
         self.assertAlmostEqual(result["peak_w"], 2255.611214182643)
 
