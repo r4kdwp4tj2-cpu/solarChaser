@@ -27,6 +27,8 @@ The earlier project discussion recorded PDR approval. The present repository fou
 - [SC-500-001 Mechanical Architecture](docs/20-architecture/SC-500-001-mechanical-architecture.md)
 - [Decision records](docs/40-decisions/README.md)
 - [EM-002 Technical Bay Architecture and Repository Governance](docs/60-design-reviews/EM-002-technical-bay-and-repository-governance.md)
+- [EM-003 Preliminary Electrical Load and Energy Budget](docs/60-design-reviews/EM-003-preliminary-electrical-load-budget.md)
+- [Reproducible calculations](calculations/README.md)
 - [Risk register](docs/50-risk/SC-950-001-risk-register.md)
 - [Configuration-management plan](docs/90-configuration/SC-900-001-configuration-management-plan.md)
 - [Contributing and review workflow](CONTRIBUTING.md)

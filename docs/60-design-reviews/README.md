@@ -5,3 +5,4 @@ Store review packages, minutes, decisions, action lists, and approvals here. A h
 ## Engineering meetings
 
 - [EM-002 — Technical Bay Architecture and Repository Governance](EM-002-technical-bay-and-repository-governance.md)
+- [EM-003 — Preliminary Electrical Load and Energy Budget](EM-003-preliminary-electrical-load-budget.md)
