@@ -1,7 +1,7 @@
 ---
 document_id: SC-200-001
 title: System Architecture Specification
-revision: 0.3
+revision: 0.4
 status: draft
 owner: Systems Architecture
 approver: null
@@ -75,7 +75,11 @@ See [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md). Detailed inter
 
 ## Physical integration
 
-The preliminary electrical and diagnostic integration concept is defined in [SC-402-001 Technical Bay Preliminary Design](SC-402-001-technical-bay-preliminary-design.md). Its physical location, envelope, and equipment arrangement remain subject to measurement of the selected Renault L2H2, mass properties, thermal analysis, and trade study.
+The dry toilet compartment contains a Trelino composting toilet and sanitary storage only. It has no sink, shower, fresh-water plumbing, or grey-water plumbing. Washing and water-service functions are allocated to the opposite side of the van near the sliding door.
+
+The technical bay is allocated under a permanent bed adjacent to the dry toilet compartment. Major access is from above through the liftable mattress/bed platform; routine inspection and service use removable side panels. Passive ventilation through a defined low inlet and high outlet is the baseline, with reserved provision for a temperature-controlled extraction fan if thermal analysis justifies it. See [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md), [SC-402-001](SC-402-001-technical-bay-preliminary-design.md), and [SC-500-001](SC-500-001-mechanical-architecture.md).
+
+The exact envelope, internal equipment arrangement, grille free area, structural restraint, mass properties, and fan need remain subject to measurement, load and loss budgets, thermal analysis, and verification on the selected Renault L2H2.
 
 ## External platform sources
 

@@ -1,12 +1,12 @@
 ---
 document_id: SC-000-001
 title: Project Charter
-revision: 0.3
-status: approved
+revision: 0.4
+status: in-review
 owner: Design Authority
-approver: Spiros Netos
-approval_date: 2026-07-09
-baseline: B0
+approver: null
+approval_date: null
+baseline: null
 ---
 
 # SC-000-001 Project Charter
@@ -53,3 +53,5 @@ The current vehicle implementation baseline is the **Renault Master E-Tech elect
 ## Governance
 
 The [Repository Architecture Specification](SC-090-001-repository-architecture-specification.md) governs engineering information. The [Configuration-Management Plan](../90-configuration/SC-900-001-configuration-management-plan.md) governs changes and baselines.
+
+GitHub is the authoritative engineering record. Chat discussions and meeting conversations are working material until their approved decisions are synchronized into the repository. Each engineering meeting that changes controlled information produces an implementation record identifying decisions, affected artifacts, risks, actions, and review status. A meeting is not closed until the corresponding repository change has been reviewed and accepted by the Design Authority.

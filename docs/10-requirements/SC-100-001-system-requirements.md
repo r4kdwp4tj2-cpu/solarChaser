@@ -1,7 +1,7 @@
 ---
 document_id: SC-100-001
 title: System Requirements Specification
-revision: 0.3
+revision: 0.4
 status: draft
 owner: Systems Engineering
 approver: null
@@ -20,7 +20,7 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 | ID | Requirement | Primary allocation | Verification concept |
 |---|---|---|---|
 | FR-001 | The camper shall provide two independent permanent beds, each with a minimum sleeping area of 1800 mm × 700 mm, without requiring daily conversion from another function. | Habitation | Inspection and measurement |
-| FR-003 | The camper shall provide a toilet compartment without an indoor shower. | Habitation; Water and Sanitary | Inspection |
+| FR-003 | The camper shall provide a dry toilet compartment containing a Trelino composting toilet and sanitary-item storage, with no sink, shower, fresh-water plumbing, or grey-water plumbing. | Habitation; Water and Sanitary | Inspection |
 | FR-004 | The camper shall provide an outside shower. | Water and Sanitary; Body and Openings | Demonstration |
 | FR-005 | The camper shall support portable gas cooking without a fixed gas installation. | Cooking and Food; Safety | Inspection and demonstration |
 | FR-007 | The camper shall provide usable fresh-water storage of not less than 40 L and not more than 50 L. | Water and Sanitary | Fill-and-measure test |
@@ -62,6 +62,7 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 | NFR-038 | Each subsystem shall minimize standby power consumption. | All powered systems | Measurement |
 | NFR-039 | The platform shall support at least 20 years of normal recreational operation with scheduled maintenance; wear items and electronic components may be replaced without architectural redesign. | All systems; Configuration and Lifecycle | Lifecycle analysis and design review |
 | NFR-040 | The completed vehicle shall have a registered permissible gross mass not exceeding 3500 kg and shall be legally operable by the captain without a C1 licence in every intended travel jurisdiction. | Vehicle Platform; Compliance; Weight Management | Registration-document inspection and jurisdiction review |
+| NFR-041 | The GitHub engineering repository shall remain synchronized with all approved requirements, architectural decisions, and engineering-meeting outcomes; no approved engineering decision shall exist solely in conversation history. | Configuration Management; Documentation | Meeting-to-repository traceability inspection |
 
 ## Traceability work required before B1
 
@@ -75,3 +76,5 @@ This draft preserves the accepted requirements captured in the earlier engineeri
 - Confirm how NFR-027's 500 kg remaining payload is calculated for the Renault 3.5 t registration basis, including occupants, water, optional equipment, and statutory mass definitions.
 
 Architectural decisions are recorded separately in [ADR-001](../40-decisions/ADR-001-48v-house-architecture.md), [ADR-002](../40-decisions/ADR-002-platform-design-life.md), and [ADR-003](../40-decisions/ADR-003-renault-master-etech-l2h2-platform.md).
+
+The technical-bay physical concept is recorded in [ADR-004](../40-decisions/ADR-004-under-bed-technical-bay.md) and allocated through [SC-402-001](../20-architecture/SC-402-001-technical-bay-preliminary-design.md) and [SC-500-001](../20-architecture/SC-500-001-mechanical-architecture.md).

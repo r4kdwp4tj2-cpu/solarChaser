@@ -7,6 +7,7 @@ This directory contains the preserved rationale for significant engineering deci
 - [ADR-001 — 48 V house architecture](ADR-001-48v-house-architecture.md)
 - [ADR-002 — 20-year platform design life](ADR-002-platform-design-life.md)
 - [ADR-003 — Renault Master E-Tech electric L2H2 platform](ADR-003-renault-master-etech-l2h2-platform.md)
+- [ADR-004 — Under-bed technical bay](ADR-004-under-bed-technical-bay.md)
 
 ## Trade studies
 
