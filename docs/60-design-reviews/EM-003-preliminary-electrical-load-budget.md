@@ -2,11 +2,11 @@
 record_id: EM-003
 title: Preliminary Electrical Load and Energy Budget
 revision: 0.1
-status: draft
+status: approved
 meeting_authority: Spiros Netos
 meeting_date: 2026-07-12
-approver: null
-approval_date: null
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 
@@ -41,15 +41,15 @@ Automated verification checks the controlled input and sizing arithmetic.
 | Arithmetic peak upper bound | 2.26 kW | Requires transient and coincidence study |
 | Two-day nominal battery-planning energy | 7.17 kWh | Trade-study input, not selected capacity |
 
-## Proposed decisions
+## Decisions
 
 | ID | Decision | Status | Authoritative implementation |
 |---|---|---|---|
-| D-010 | Use the reproducible CSV-and-Python load model as the controlled source for preliminary electrical sizing. | Proposed | Calculation package |
-| D-011 | Use 2.61 kWh/day as the current design-day estimate until mission profiles and selected equipment replace the assumptions. | Proposed | Generated results |
-| D-012 | Carry 1.56 kW continuous and 2.26 kW arithmetic peak as conservative analysis envelopes; do not treat them as final nameplate selections. | Proposed | Generated results; SC-402 |
-| D-013 | Carry 7.17 kWh nominal as a battery trade-study input only, based on two days, 10% contingency, and 80% usable energy. | Proposed | Generated results; SC-402 |
-| D-014 | Exclude space heating, water heating, air conditioning, fixed electric cooking, and traction energy until requirements approve those loads. | Proposed | Controlled load input and result limits |
+| D-010 | Use the reproducible CSV-and-Python load model as the controlled source for preliminary electrical sizing. | Approved | Calculation package |
+| D-011 | Use 2.61 kWh/day as the current design-day estimate until mission profiles and selected equipment replace the assumptions. | Approved | Generated results |
+| D-012 | Carry 1.56 kW continuous and 2.26 kW arithmetic peak as conservative analysis envelopes; do not treat them as final nameplate selections. | Approved | Generated results; SC-402 |
+| D-013 | Carry 7.17 kWh nominal as a battery trade-study input only, based on two days, 10% contingency, and 80% usable energy. | Approved | Generated results; SC-402 |
+| D-014 | Exclude space heating, water heating, air conditioning, fixed electric cooking, and traction energy until requirements approve those loads. | Approved | Controlled load input and result limits |
 
 ## Assumptions and exclusions
 
@@ -83,7 +83,7 @@ Automated verification checks the controlled input and sizing arithmetic.
 
 ### Engineering
 
-- Obtain Design Authority agreement on the included loads, exclusions, autonomy days, contingency, and usable-energy assumption.
+- Completed 2026-07-12: obtained Design Authority agreement on the included loads, exclusions, autonomy days, contingency, and usable-energy assumption, including equal summer and winter optional 230 V allowances.
 - Define at least summer, winter, travel, storage, and degraded-power mission profiles.
 - Replace estimates with supplier data and measurements when candidate products exist.
 - Complete load-coincidence, motor-start, inverter-surge, temperature-derating, and protection studies.
@@ -93,10 +93,9 @@ Automated verification checks the controlled input and sizing arithmetic.
 
 ### Design Authority
 
-- Review the assumptions, exclusions, proposed decisions, and generated result.
-- Accept, correct, or reject RUP-003.
+- Completed 2026-07-12: reviewed and approved the assumptions, exclusions, decisions, generated result, and RUP-003 after correcting the optional 230 V allowance.
 - After acceptance, merge the synchronized pull request to close the meeting's repository action.
 
 ## Review status
 
-**Implementation complete; awaiting Design Authority review.** The analysis is suitable for preliminary planning only. Approval of EM-003 would approve the stated calculation basis and interim envelopes, not final equipment ratings or procurement.
+**Accepted by the Design Authority on 2026-07-12; awaiting merge to `main`.** Approval confirms the stated calculation basis and interim envelopes, not final equipment ratings or procurement. Merge closes the meeting's repository-synchronization action; the remaining engineering actions stay open.
