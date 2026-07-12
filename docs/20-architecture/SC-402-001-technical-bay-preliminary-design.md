@@ -106,11 +106,11 @@ Side access supports:
 
 Frequently inspected items occupy the first access plane. A second access plane is acceptable only where the first plane hinges or removes as a documented module without disconnecting unrelated circuits.
 
-## 6. Proposed derived design requirements
+## 6. Derived design requirements
 
-These requirements remain local to SC-402 until accepted into the SyRS or allocated to a subsystem specification.
+TBR-018 through TBR-022 were accepted through EM-005. TBR-001 through TBR-017 remain local proposals until accepted into the SyRS or allocated to a subsystem specification.
 
-| ID | Proposed requirement | Verification concept |
+| ID | Requirement | Verification concept |
 |---|---|---|
 | TBR-001 | Routine inspection of protection, indicators, test points, and labels shall be possible through removable side panels without lifting the mattress or dismantling fixed furniture. | Access demonstration |
 | TBR-002 | The battery and other designated large modules shall have a documented removal path through the lifted bed platform and shall be removable without cutting conductors or removing unrelated modules. | Replacement demonstration |

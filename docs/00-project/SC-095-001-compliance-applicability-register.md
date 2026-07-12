@@ -2,10 +2,10 @@
 document_id: SC-095-001
 title: Compliance Applicability Register
 revision: 0.1
-status: draft
+status: approved
 owner: Systems Engineering and Compliance
-approver: null
-approval_date: null
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 

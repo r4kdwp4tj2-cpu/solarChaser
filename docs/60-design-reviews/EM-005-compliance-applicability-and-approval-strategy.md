@@ -2,11 +2,11 @@
 record_id: EM-005
 title: Compliance Applicability and Approval Strategy
 revision: 0.1
-status: draft
+status: approved
 meeting_authority: Spiros Netos
 meeting_date: 2026-07-12
-approver: null
-approval_date: null
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 
@@ -28,21 +28,21 @@ The result is [SC-095-001 Compliance Applicability Register](../00-project/SC-09
 6. IEC 62619 product evidence and UN 38.3 transport-test evidence are useful battery screening inputs but do not approve the under-bed installation.
 7. As-built workmanship, restraint, mass, drawings, settings, labels, tests, photographs, deviations, and qualified sign-offs are approval evidence in their own right.
 
-## Proposed decisions
+## Decisions
 
 | ID | Decision | Status | Authoritative implementation |
 |---|---|---|---|
-| D-020 | Control compliance applicability and evidence through SC-095-001 rather than informal checklists. | Proposed | SC-095-001 |
-| D-021 | Obtain a written pre-application approval strategy from the responsible canton and any required ASTRA-recognized test centre before layout freeze or irreversible modification. | Proposed | CA-001/002; CG-01 |
-| D-022 | Use IEC 60364-7-721:2017 as the preliminary design baseline for fixed habitation-purpose electrical circuits, subject to confirmation of the current Swiss implementation and inspection route. | Proposed | CA-004/005; CG-03 |
-| D-023 | Require an EMC evidence matrix and completed-system change-impact assessment; do not treat individual E-marks or declarations as proof of integrated compatibility. | Proposed | CA-006/007; CG-05 |
-| D-024 | Keep the OEM traction-HV system outside the house architecture and treat UN R100 as conditional/supporting evidence for the separate house battery unless the authority decides otherwise. | Proposed | CA-008; SC-402 |
-| D-025 | Require a current UN 38.3 test summary for the exact battery type as transport evidence while explicitly rejecting it as installed-system approval. | Proposed | CA-010; CG-04 |
-| D-026 | Prohibit layout-dependent procurement and concealed installation until the applicable approval gate is closed with configuration-matched evidence. | Proposed | SC-095-001 |
+| D-020 | Control compliance applicability and evidence through SC-095-001 rather than informal checklists. | Approved | SC-095-001 |
+| D-021 | Obtain a written pre-application approval strategy from the responsible canton and any required ASTRA-recognized test centre before layout freeze or irreversible modification. | Approved | CA-001/002; CG-01 |
+| D-022 | Use IEC 60364-7-721:2017 as the preliminary design baseline for fixed habitation-purpose electrical circuits, subject to confirmation of the current Swiss implementation and inspection route. | Approved | CA-004/005; CG-03 |
+| D-023 | Require an EMC evidence matrix and completed-system change-impact assessment; do not treat individual E-marks or declarations as proof of integrated compatibility. | Approved | CA-006/007; CG-05 |
+| D-024 | Keep the OEM traction-HV system outside the house architecture and treat UN R100 as conditional/supporting evidence for the separate house battery unless the authority decides otherwise. | Approved | CA-008; SC-402 |
+| D-025 | Require a current UN 38.3 test summary for the exact battery type as transport evidence while explicitly rejecting it as installed-system approval. | Approved | CA-010; CG-04 |
+| D-026 | Prohibit layout-dependent procurement and concealed installation until the applicable approval gate is closed with configuration-matched evidence. | Approved | SC-095-001 |
 
-## Proposed derived requirements
+## Accepted derived requirements
 
-| ID | Proposed requirement | Verification concept |
+| ID | Accepted requirement | Verification concept |
 |---|---|---|
 | TBR-018 | The project shall obtain and retain the written approval strategy, evidence list, and inspection stages agreed with the responsible Swiss authority before irreversible conversion work. | Record inspection |
 | TBR-019 | The fixed 230 V habitation installation shall be designed, installed, inspected, and tested against the confirmed Swiss implementation of the applicable caravan/motor-caravan electrical standard by qualified persons. | Design review and installation certificate |
@@ -80,10 +80,9 @@ The result is [SC-095-001 Compliance Applicability Register](../00-project/SC-09
 
 ### Design Authority
 
-- Review the applicability classes, approval gates, authority questions, proposed decisions, and derived requirements.
-- Accept, correct, or reject RUP-005.
+- Completed 2026-07-12: reviewed and approved the applicability classes, approval gates, authority questions, decisions, derived requirements, and RUP-005 without correction.
 - After acceptance, merge the synchronized pull request to close the meeting's repository action.
 
 ## Review status
 
-**Implementation complete; awaiting Design Authority review and external authority confirmation.** Approval establishes the project compliance strategy; it does not represent legal advice, authority acceptance, or installation certification.
+**Accepted by the Design Authority on 2026-07-12; awaiting merge to `main` and external authority confirmation.** Approval establishes the project compliance strategy; it does not represent legal advice, authority acceptance, or installation certification. Merge closes the meeting's repository-synchronization action; external and engineering actions remain open.
