@@ -2,11 +2,11 @@
 record_id: EM-004
 title: Battery Capacity and Chemistry Trade Study
 revision: 0.1
-status: draft
+status: approved
 meeting_authority: Spiros Netos
 meeting_date: 2026-07-12
-approver: null
-approval_date: null
+approver: Spiros Netos
+approval_date: 2026-07-12
 baseline: null
 ---
 
@@ -82,15 +82,15 @@ A representative packaging envelope of two 51.2 V, 100 Ah LFP modules gives:
 
 This envelope deliberately rounds up to a plausible modular arrangement. The 10.24 kWh value is not a capacity requirement or product decision. The weight budget must also include BMS, isolation, protection, busbars, cables, enclosure, restraint, thermal provisions, and service clearances.
 
-## Proposed decisions
+## Decisions
 
 | ID | Decision | Status | Authoritative implementation |
 |---|---|---|---|
-| D-015 | Use LFP as the preferred house-battery chemistry baseline. | Proposed | Trade calculation; SC-402 |
-| D-016 | Retain LTO only as an alternative if controlled mission requirements make sub-zero charging dominant enough to justify its mass, volume, integration, and availability penalties. | Proposed | This record |
-| D-017 | Reject NMC as the baseline for the occupied under-bed technical bay. | Proposed | This record; R-012 |
-| D-018 | Carry 7.173 kWh / 140 Ah at 51.2 V as the minimum nominal planning result and 10.24 kWh / 74 kg battery-only as the representative two-module packaging envelope. | Proposed | Generated result; SC-402 |
-| D-019 | Require independent low-temperature charge inhibition, temperature monitoring, hardware protection, manual isolation, and a controlled thermal/venting concept before battery layout approval. | Proposed | SC-402; R-012 |
+| D-015 | Use LFP as the preferred house-battery chemistry baseline. | Approved | Trade calculation; SC-402 |
+| D-016 | Retain LTO only as an alternative if controlled mission requirements make sub-zero charging dominant enough to justify its mass, volume, integration, and availability penalties. | Approved | This record |
+| D-017 | Reject NMC as the baseline for the occupied under-bed technical bay. | Approved | This record; R-012 |
+| D-018 | Carry 7.173 kWh / 140 Ah at 51.2 V as the minimum nominal planning result and 10.24 kWh / 74 kg battery-only as the representative two-module packaging envelope. | Approved | Generated result; SC-402 |
+| D-019 | Require independent low-temperature charge inhibition, temperature monitoring, hardware protection, manual isolation, and a controlled thermal/venting concept before battery layout approval. | Approved | SC-402; R-012 |
 
 ## Compliance boundary
 
@@ -134,10 +134,9 @@ This envelope deliberately rounds up to a plausible modular arrangement. The 10.
 
 ### Design Authority
 
-- Review the criteria, weights, evidence, proposed decisions, and representative capacity envelope.
-- Accept, correct, or reject RUP-004.
+- Completed 2026-07-12: reviewed and approved all EM-004 documents, criteria, weights, evidence, decisions, representative capacity envelope, and RUP-004 without correction.
 - After acceptance, merge the synchronized pull request to close the meeting's repository action.
 
 ## Review status
 
-**Implementation complete; awaiting Design Authority review.** Approval would select LFP as the chemistry baseline and accept the stated planning envelope and safety constraints, but would not select a supplier, product, or procurement configuration.
+**Accepted by the Design Authority on 2026-07-12; awaiting merge to `main`.** Approval selects LFP as the chemistry baseline and accepts the stated planning envelope and safety constraints, but does not select a supplier, product, or procurement configuration. Merge closes the meeting's repository-synchronization action; the remaining engineering actions stay open.
