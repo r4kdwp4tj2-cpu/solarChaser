@@ -28,6 +28,7 @@ The earlier project discussion recorded PDR approval. The present repository fou
 - [Decision records](docs/40-decisions/README.md)
 - [EM-002 Technical Bay Architecture and Repository Governance](docs/60-design-reviews/EM-002-technical-bay-and-repository-governance.md)
 - [EM-003 Preliminary Electrical Load and Energy Budget](docs/60-design-reviews/EM-003-preliminary-electrical-load-budget.md)
+- [EM-004 Battery Capacity and Chemistry Trade Study](docs/60-design-reviews/EM-004-battery-capacity-and-chemistry-trade.md)
 - [Reproducible calculations](calculations/README.md)
 - [Risk register](docs/50-risk/SC-950-001-risk-register.md)
 - [Configuration-management plan](docs/90-configuration/SC-900-001-configuration-management-plan.md)
