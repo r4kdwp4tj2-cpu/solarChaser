@@ -1,7 +1,7 @@
 ---
 document_id: SC-402-001
 title: Technical Bay Preliminary Design
-revision: 0.5
+revision: 0.6
 status: draft
 owner: Electrical Power and Physical Architecture
 approver: null
@@ -129,6 +129,11 @@ These requirements remain local to SC-402 until accepted into the SyRS or alloca
 | TBR-015 | Bay structure, equipment mounts, battery restraint, and the bed platform shall withstand applicable vehicle and service loads and shall not rely on removable decorative panels as load paths. | Structural analysis and inspection |
 | TBR-016 | Installed mass, centre-of-mass location, service clearances, removal envelopes, and reserved expansion volume shall be stated before layout approval. | Mass and layout review |
 | TBR-017 | At least the main 48 V bus, derived 12 V bus, battery state, source/charger state, inverter state, converter state, and bay temperatures shall be observable where supported by open or documented interfaces. | Interface review and functional test |
+| TBR-018 | The project shall obtain and retain the written approval strategy, evidence list, and inspection stages agreed with the responsible Swiss authority before irreversible conversion work. | Record inspection |
+| TBR-019 | The fixed 230 V habitation installation shall be designed, installed, inspected, and tested against the confirmed Swiss implementation of the applicable caravan/motor-caravan electrical standard by qualified persons. | Design review and installation certificate |
+| TBR-020 | Every safety- or approval-relevant electrical product shall have configuration-matched evidence covering exact part number, firmware/BMS, accessories, environmental limits, mounting, and certificate scope. | Evidence-matrix audit |
+| TBR-021 | EMC compliance shall be assessed for the completed conversion and shall include component evidence, installation controls, change-impact analysis, and testing where required by the approval authority. | EMC dossier review |
+| TBR-022 | The as-built approval dossier shall include drawings, configuration, protection settings, labels, torque/inspection records, electrical tests, mass/axle evidence, photographs, deviations, and required sign-offs. | Dossier audit |
 
 ## 7. Ventilation and thermal concept
 
@@ -239,7 +244,7 @@ This design treats [R-001, R-002, R-004, R-005, R-006, R-008, and R-009](../50-r
 | A-402-002 | Dimensioned bed, dry-toilet, aisle, side-panel, and wash/water-area layout | Access and routing approval |
 | A-402-003 | Preliminary reproducible budget implemented in EM-003; validate mission profiles, selected products, diversity, transients, and derating before detailed sizing | Converter, inverter, protection, and thermal envelopes |
 | A-402-004 | Reproducible chemistry and capacity trade implemented in EM-004; validate product eligibility, compliance, installed mass, packaging, thermal behavior, BMS, and protection before selection | Z4 envelope and safety concept |
-| A-402-005 | Applicable Swiss/EU electrical, vehicle, EMC, fire, and registration review | Detailed protection and compliance design |
+| A-402-005 | Preliminary applicability and approval strategy implemented in EM-005 and SC-095-001; close with exact vehicle data, current Swiss clauses, qualified electrical review, and written authority/test-centre responses | Detailed protection and compliance design |
 | A-402-006 | Equipment envelope library using at least two plausible product families per major function | Access and expansion study |
 | A-402-007 | Renault/body-builder-approved traction or auxiliary interface evidence | IF-402 feasibility |
 | A-402-008 | Passive ventilation calculation and instrumented test plan | Grille sizing and fan decision |

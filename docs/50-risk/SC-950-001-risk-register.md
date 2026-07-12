@@ -1,7 +1,7 @@
 ---
 document_id: SC-950-001
 title: Risk Register
-revision: 0.7
+revision: 0.8
 status: draft
 owner: Systems Engineering
 approver: null
@@ -31,6 +31,7 @@ Probability is `Low`, `Medium`, or `High`. Impact is `Low`, `Medium`, `High`, or
 | R-010 | Project / compliance | Because published Renault payload and dimensional data cover multiple configurations, the selected 3.5 t vehicle may not provide sufficient exact payload, packaging, speed capability, or conversion approvals for the mission. | Medium | High | Vehicle Platform | Before purchase, verify exact CoC/configuration, running-order and axle masses, governed speed, body-builder rules, HV exclusion zones, and conversion mass budget; make procurement conditional on NFR-027 and NFR-040 feasibility. | Low / Medium | Open |
 | R-011 | Project / configuration | Because engineering decisions are developed in conversation before controlled documents are updated, the repository may lag behind approved intent, causing omissions, conflicting identifiers, or reliance on non-authoritative history. | Medium | High | Configuration Management | Apply NFR-041; issue an RUP for each engineering meeting that changes controlled information; reconcile identifiers before authoring; use a working branch and pull request; close the meeting only after Design Authority review and merge; audit meeting-to-repository traceability at baselines. | Low / Medium | Open |
 | R-012 | Safety / technical | Because a high-energy lithium house battery is installed inside the occupied vehicle beneath a bed, internal failure, external heating, overcharge, sub-zero charging, mechanical damage, or propagation may release heat, flammable or toxic gases, fire, or fault current into the habitation space. | Low | Critical | Energy Storage and Safety | Apply the approved EM-004 LFP baseline; select only an eligible documented battery system; provide independent BMS and hardware protection, low-temperature charge inhibition, temperature monitoring, manual isolation, fault-current protection, structural restraint, controlled venting/thermal concept, service access, and applicable compliance evidence; verify by analysis, inspection, fault testing, and supplier instructions. | Low / High | Open |
+| R-013 | Compliance / project | Because vehicle, electrical, EMC, battery, transport, and installation evidence have different scopes and the approval route depends on the exact vehicle and canton, the conversion may be unsafe, require rework, or fail registration if component certificates are mistaken for installed-system approval or authorities are engaged too late. | Medium | High | Systems Engineering and Compliance | Maintain SC-095-001; obtain the written canton/test-centre strategy before irreversible work; confirm current Swiss electrical rules with qualified persons; use configuration-matched evidence; plan intermediate inspections; preserve as-built records; close each compliance gate before dependent procurement or concealment. | Low / Medium | Open |
 
 ## Review rules
 
