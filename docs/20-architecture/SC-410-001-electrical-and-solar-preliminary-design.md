@@ -77,6 +77,8 @@ flowchart LR
     GX -. monitors .-> NON
 ```
 
+Connection-level terminals, pin designations, conductor paths and the component cross-reference are documented in [EC-WD-001 Electrical Core Wiring Diagram](../../drawings/export/EC-WD-001-electrical-core-wiring-diagram.pdf). The [editable generator](../../drawings/src/EC-WD-001-electrical-core-wiring-diagram.py) validates all component IDs and names against the controlled BOM before producing the export.
+
 Independent fuses, BMS contactor logic, equipment-local protection, manual isolation, and AC protective devices remain authoritative even if the supervisory controller or communications fail.
 
 ## 5. Roof photovoltaic design
