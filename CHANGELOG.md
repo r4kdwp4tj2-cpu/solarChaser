@@ -6,6 +6,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- EC-WD-001 connection-level electrical-core wiring diagram with component IDs and names, terminal and pin designations, a 32-connection schedule, BOM cross-reference, editable generator, PDF export, and PNG preview.
 - EM-006 and SC-410-001 electrical and solar preliminary design covering an 800 Wp 4S roof array, 48 V storage/distribution, dual 12 V buses, 3 kVA inverter/charger, shore control, monitoring and approval gates.
 - Reproducible solar voltage/yield, electrical-core mass and cable voltage-drop calculations with an 18-line component BOM, 11-circuit cable schedule and automated verification.
 - Proposed NFR-042 controlling the Design Authority's 200 kg roof-load input through vehicle-specific structural, dynamic, aerodynamic and approval evidence.
