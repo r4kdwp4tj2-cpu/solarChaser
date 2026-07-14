@@ -6,6 +6,9 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Added
 
+- SC-411-001 and EM-007 EcoFlow minimal electrical alternative using a 5 kVA Power Hub, one 5.12 kWh LFP battery, four 175 W panels in two independent 2S MPPT strings, Smart AC/DC panel, touchscreen and 45 L GLACIER refrigerator.
+- Reproducible EcoFlow load, battery-autonomy, seasonal-solar, charge-time, mass and material-only cost calculation with controlled load and component CSVs and automated verification.
+- Functional EcoFlow connection architecture and schedule identifying component IDs, terminal designations, protected load branches and the mandatory two-pole shore/V2L interlock.
 - EC-WD-001 connection-level electrical-core wiring diagram with component IDs and names, terminal and pin designations, a 32-connection schedule, BOM cross-reference, editable generator, PDF export, and PNG preview.
 - EM-006 and SC-410-001 electrical and solar preliminary design covering an 800 Wp 4S roof array, 48 V storage/distribution, dual 12 V buses, 3 kVA inverter/charger, shore control, monitoring and approval gates.
 - Reproducible solar voltage/yield, electrical-core mass and cable voltage-drop calculations with an 18-line component BOM, 11-circuit cable schedule and automated verification.
@@ -32,6 +35,7 @@ This file records repository-level baselines and noteworthy engineering-package 
 
 ### Changed
 
+- Updated vehicle-interface risk R-003 to distinguish Renault's published optional 3.5 kW V2L capability from the still-open exact-vehicle, earthing and 12 V auxiliary-interface approvals.
 - Raised the payload-growth risk because the preliminary complete electrical core is approximately 216.82 kg, including 68 kg of estimated ancillary installation mass.
 - Added roof-solar attachment/ingress and approximately 164 V daylight-PV safety risks, and allocated TBR-023 through TBR-032 to the technical-bay design.
 - Recorded Design Authority approval of SC-700-001 MFK Certification Evidence.

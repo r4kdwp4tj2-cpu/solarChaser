@@ -1,0 +1,9 @@
+load_id,name,domain,quantity,rated_power_w,hours_per_day,daily_override_wh,conversion_efficiency,continuous_w,peak_w,certainty,basis,source_url
+EF-LD-001,EcoFlow GLACIER Classic 45 L compressor refrigerator,12V,1,55,0,300,0.92,55,100,manufacturer-plus-allowance,"Manufacturer reports 190 Wh per 24 h at 25 C ambient and 4 C set point; 300 Wh/day is the hot-vehicle planning allowance",https://ch.ecoflow.com/products/ecoflow-glacier-classic-45-liter-tragbare-kompressor-kuehlbox
+EF-LD-002,10 L electric boiler,230V,1,500,0,600,0.90,500,500,engineering-estimate,"One complete 10 L heat from 15 C to 60 C per day at 87 percent heater/system efficiency; product not yet selected",
+EF-LD-003,USB-C LED lights,12V,6,5,4,0,0.92,30,30,engineering-estimate,"Six 5 W lights used four hours per day; product not yet selected",
+EF-LD-004,Smartphone charging,USB,2,30,0,50,0.90,60,60,engineering-estimate,"Two smartphones at 25 Wh/day each including battery charge-cycle allowance",
+EF-LD-005,Underfloor heater,230V,1,100,4,0,0.90,100,100,user-requirement,"100 W for four hours per day",
+EF-LD-006,Electric blanket,230V,1,100,0.25,0,0.90,100,100,user-requirement,"One 100 W blanket for 15 minutes per day",
+EF-LD-007,MacBook Air occasional charging,USB,1,67,0,35,0.90,67,67,engineering-estimate,"Occasional use represented by 35 Wh/day planning average; existing charger retained",
+EF-LD-008,Power Hub controls and monitoring overhead,48V,1,10,0,200,0.98,10,15,engineering-estimate,"Planning allowance because the published Power Hub manual does not quantify all installed idle losses",
